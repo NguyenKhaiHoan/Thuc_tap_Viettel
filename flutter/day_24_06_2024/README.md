@@ -1,16 +1,14 @@
 # day_24_06_2024
 
-A new Flutter project.
+Thực tập Viettel ngày 24/6/2024
 
-## Getting Started
+## Kết quả đạt được
 
-This project is a starting point for a Flutter application.
+- Đã tìm hiểu về Flutter, Multi Platforms
+- Tìm hiểu cơ bản Clean Architectture
+- Tìm hiểu thư viện quản lý trạng thái Bloc
+- Thực hành tạo một project rest news api, giao diện tham khảo tại nguồn sau [link1](https://dribbble.com/shots/15607170-News-App-Mobile-Concept/attachments/7395388?mode=media) và [link2](https://dribbble.com/shots/9151908-News-App) 
 
-A few resources to get you started if this is your first Flutter project:
+## Ảnh demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
