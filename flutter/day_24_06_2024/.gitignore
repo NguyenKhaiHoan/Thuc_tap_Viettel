@@ -43,6 +43,8 @@ app.*.map.json
 /test/
 .metadata
 /analysis_options.yaml
-/pubspec.yaml
 /pubspec.lock
 /day_24_06_2024.iml
+.env
+.flutter-plugins
+.flutter-plugins-dependencies
