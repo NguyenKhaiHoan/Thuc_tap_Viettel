@@ -1,16 +1,14 @@
-# day_25_26_06_2024
+# day_25_26_27_06_2024
 
-A new Flutter project.
+Thực tập ngày 25,26,27/06/2024
 
-## Getting Started
+## Kết quả đạt được
 
-This project is a starting point for a Flutter application.
+- Tạo project ứng dụng mobile rest api từ themoviedb
+- Áp dụng Bloc, Clean Architecture và các package rest api: Dio và generate code: retrofit để nhận dữ liệu Api
+- Đã code được 7 màn hình ứng dụng, UI tham khảo ở link: https://www.behance.net/gallery/198896501/Streaming-Service-App
 
-A few resources to get you started if this is your first Flutter project:
+# Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/NguyenKhaiHoan/Thuc_tap_Viettel/assets/91106338/5cf1b13f-3f18-4421-90ce-ce1af3796ff1
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
