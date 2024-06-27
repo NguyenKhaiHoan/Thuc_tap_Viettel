@@ -9,9 +9,31 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  Bloc.observer = const AppBlocObserver();
+
   await dotenv.load(fileName: ".env");
   await initializeDependencies();
   runApp(const MyApp());
+}
+
+class AppBlocObserver extends BlocObserver {
+  /// {@macro app_bloc_observer}
+  const AppBlocObserver();
+
+  @override
+  void onChange(BlocBase<dynamic> bloc, Change<dynamic> change) {
+    super.onChange(bloc, change);
+    if (bloc is Cubit) print(change);
+  }
+
+  @override
+  void onTransition(
+    Bloc<dynamic, dynamic> bloc,
+    Transition<dynamic, dynamic> transition,
+  ) {
+    super.onTransition(bloc, transition);
+    print(transition);
+  }
 }
 
 class MyApp extends StatelessWidget {
